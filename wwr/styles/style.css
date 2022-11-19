@@ -12,6 +12,26 @@ html{
 #hero-msg h1, #hero-msg h4{
     text-align: center;
 }
+.title {
+    display:grid;
+    grid-template-columns: 1fr 5fr ;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+#title-image{
+    width:100%;
+}
+.titleContent{
+    text-align:center;
+    background-color: gray;
+    padding-bottom: 10px;
+    
+}
+#questions{
+    margin:0 50px ;
+}
 
 h2{
     margin: 0;
